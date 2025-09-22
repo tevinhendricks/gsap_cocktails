@@ -17,7 +17,8 @@ export default function Navbar(props) {
 
         navTweens.fromTo('nav', {
             backgroundColor: 'transparent'
-        }, {
+        }, 
+        {
             backgroundColor: '#00000050',
             backgroundFilter: 'blur(10px)',
             duration: 1,
